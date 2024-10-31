@@ -17,12 +17,17 @@ public class Teste {
         System.out.println("Qual a sua idade?");
         int idade = ler.nextInt();
 
+        ler.nextLine();
+
+        System.out.println("Qual é a sua taxa de atividade física?");
+        taxadeAtv taxa = new taxadeAtv(ler.nextLine());
+        
         IMC.calcularIMC(peso, altura);
 
         if(sexo.equalsIgnoreCase("Masculino")){ //Lembrar de tratar os casos de "F, M, Homem e Mulher"
-            aumentodeMassaMasc.calcularMacros(peso, altura, idade);
+           aumentodeMassaMasc.calcularMacros(peso, altura, idade, taxa);
         } else if(sexo.equalsIgnoreCase("Feminino")){
-            aumentodeMassaFem.calcularMacros(peso, altura, idade);
+           aumentodeMassaFem.calcularMacros(peso, altura, idade, taxa);
         }
 
         ler.close();
