@@ -1,4 +1,5 @@
 public class aumentodeMassaFem {
+    
     public static void calcularMacros(double peso, double altura, int idade, taxadeAtv taxa){
         double TMB = 447.6 + (9.2 * peso) + (3.1 * (altura * 100)) - (4.3 * idade);
         System.out.printf("Sua taxa de metabolismo basal é de aproximadamente %.2f calorias.\n", TMB);
