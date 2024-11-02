@@ -16,5 +16,7 @@ public class aumentodeMassaFem {
         double gord= 0.25 * ganhodeMassa;
 
         System.out.printf("Além disso a proporção adequada dos outros macros é em média de:\nCarboidratos: %.2f\nProteínas: %.2f\nGorduras: %.2f\n", carbs, prots, gord);
+        
+        System.out.println(""); // Tentativa de resolver o problema de buffer
     }
 }

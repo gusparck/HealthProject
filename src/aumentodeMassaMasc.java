@@ -17,6 +17,6 @@ public class aumentodeMassaMasc {
 
         System.out.printf("Além disso a proporção adequada dos outros macros é em média de:\nCarboidratos: %.2f\nProteínas: %.2f\nGorduras: %.2f\n", carbs, prots, gord);
         
-        System.out.println("");//tentativa de resolver problema de buffer
+        System.out.println(""); // Tentativa de resolver o problema de buffer
     }
 }

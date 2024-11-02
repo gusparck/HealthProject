@@ -10,7 +10,7 @@ public class taxadeAtv{
         return frequency;
     }
 
-    public double getfreqdeAtv(){ //valor padrão
+    public double getfreqdeAtv(){ // valor padrão
         switch (frequency.toLowerCase()) {
             case "Sedentário":
                 return 1.2;
