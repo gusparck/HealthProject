@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Teste {
+public class Main {
     public static void main(String[] args){
         taxadeAtv taxa = null;
         int ans;

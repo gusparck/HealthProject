@@ -14,8 +14,9 @@ public class aumentodeMassaMasc {
         double carbs = 0.5 * ganhodeMassa;
         double prots = 0.25 * ganhodeMassa;
         double gord= 0.25 * ganhodeMassa;
+        double agua = 0.035 * peso;
 
-        System.out.printf("Além disso a proporção adequada dos outros macros é em média de:\nCarboidratos: %.2f\nProteínas: %.2f\nGorduras: %.2f\n", carbs, prots, gord);
+        System.out.printf("Além disso a proporção adequada dos outros macros é em média de:\nCarboidratos: %.2f gramas\nProteínas: %.2f gramas\nGorduras: %.2f gramas\nÁgua(35ml/kg): %.2f litros\n", carbs, prots, gord, agua);
         
         System.out.println(""); // Tentativa de resolver o problema de buffer
     }
