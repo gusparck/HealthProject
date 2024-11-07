@@ -25,7 +25,7 @@ public class Teste {
         ler.nextLine(); //solução provisória(?) para o problema com o scanner
 
         do{
-            System.out.printf("Qual é a sua taxa de atividade física?\n1-Sedentário\n2-Leve\n3-Moderado\n4-Ativo\n5-Muito ativo\n");
+            System.out.println("Qual é a sua taxa de atividade física?\n1-Sedentário\n2-Leve\n3-Moderado\n4-Ativo\n5-Muito ativo\n");
             tx = ler.nextInt();
 
             switch(tx){
@@ -73,9 +73,11 @@ public class Teste {
                     calculoCondicional.calcular(sexo, peso, altura, idade, taxa);
                     break;
                 
-                /*case 3:
-                    porcentGC.calcular(peso, idade, idade, sexo);
-                    break;*/ //precisa ser corrigido ou refeito
+                case 3:
+                    System.out.println("Informe sua quantidade de gordura(kg): ");
+                    double gordura = ler.nextDouble();
+                    percentualGordura.calcular(peso, gordura);
+                    break;
                 
                 case 0:
                     System.out.println("Saindo do programa...");
