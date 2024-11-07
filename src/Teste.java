@@ -1,6 +1,7 @@
+import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class Teste {
     public static void main(String[] args){
         taxadeAtv taxa = null;
         int ans;
@@ -58,6 +59,7 @@ public class Main {
             System.out.println("Escolha qual operação deseja realizar com os dados obtidos:");
             System.out.println("1 - Calcular seu IMC (Índice de Massa Corporal)");
             System.out.println("2 - Calcular seus macros para aumento de massa muscular.");
+            System.out.println("3 - Porcentagem de gordura corporal.");
             System.out.println("0 - Sair");
         
             ans = ler.nextInt();
@@ -70,6 +72,10 @@ public class Main {
                 case 2:
                     calculoCondicional.calcular(sexo, peso, altura, idade, taxa);
                     break;
+                
+                /*case 3:
+                    porcentGC.calcular(peso, idade, idade, sexo);
+                    break;*/ //precisa ser corrigido ou refeito
                 
                 case 0:
                     System.out.println("Saindo do programa...");
