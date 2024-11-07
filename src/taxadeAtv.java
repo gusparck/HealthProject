@@ -11,7 +11,7 @@ public class taxadeAtv{
     }
 
     public double getfreqdeAtv(){ // valor padrão
-        switch (frequency.toLowerCase()) { // existe um problema nesse método que precisa ser corrigido (Reavaliar a Main)
+        switch (frequency) { // existe um problema nesse método que precisa ser corrigido (Reavaliar a Main)
             case "Sedentário":
                 return 1.2;
                
