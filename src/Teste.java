@@ -74,9 +74,9 @@ public class Teste {
                     break;
                 
                 case 3:
-                    System.out.println("Informe sua quantidade de gordura(kg): ");
-                    double gordura = ler.nextDouble();
-                    percentualGordura.calcular(peso, gordura);
+                    //System.out.println("Informe sua quantidade de gordura(kg): ");
+                    //double gordura = ler.nextDouble();
+                    percentualGordura.calcular(peso, idade, altura, sexo);
                     break;
                 
                 case 0:
