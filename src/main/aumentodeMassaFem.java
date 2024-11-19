@@ -1,3 +1,5 @@
+package main;
+
 public class aumentodeMassaFem {
     
     public static void calcularMacros(double peso, double altura, int idade, taxadeAtv taxa){

@@ -1,3 +1,5 @@
+package main;
+
 public class taxadeAtv{
 
     private final String frequency;

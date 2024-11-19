@@ -1,3 +1,5 @@
+package main;
+
 public class calculoCondicional {
     public static void calcular(String sexo, double peso, double altura, int idade, taxadeAtv taxa){
 

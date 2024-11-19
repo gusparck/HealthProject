@@ -1,4 +1,5 @@
-import java.util.Locale;
+package main;
+
 import java.util.Scanner;
 
 public class Teste {
@@ -57,7 +58,7 @@ public class Teste {
 
         do { 
             System.out.println("Escolha qual operação deseja realizar com os dados obtidos:");
-            System.out.println("1 - Calcular seu IMC (Índice de Massa Corporal)");
+            System.out.println("1 - Calcular seu main.IMC (Índice de Massa Corporal)");
             System.out.println("2 - Calcular seus macros para aumento de massa muscular.");
             System.out.println("3 - Porcentagem de gordura corporal.");
             System.out.println("0 - Sair");
@@ -66,7 +67,8 @@ public class Teste {
         
             switch(ans) {
                 case 1:
-                    IMC.calcularIMC(peso, altura);
+                    double resultado = IMC.calcularIMC(peso, altura);
+                    System.out.printf("Seu IMC é: %.2f\n", resultado);
                     break;
         
                 case 2:
