@@ -1,5 +1,3 @@
-package main;
-
 public  class percentualGordura {
 
     public static void calcular(double peso, double idade, double altura, String sexo){
